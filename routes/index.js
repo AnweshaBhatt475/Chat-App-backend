@@ -16,7 +16,7 @@ const router = express.Router();
 router.use('/user', wallpaperRoutes);
 
 // ✅ Mount group routes under /group
-router.use('/group', groupRoutes);
+//router.use('/group', groupRoutes);
 
 /* ------------------------------------------------------------- */
 /* User Authentication & Profile Routes */
