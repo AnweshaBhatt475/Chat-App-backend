@@ -13,7 +13,7 @@ const server = http.createServer(app);
 // ✅ Updated CORS config
 const io = new Server(server, {
   cors: {
-    origin: ['https://Chat-App.com', 'https://Chat-App.com'],
+    origin: ['https://chat-app-ye0m.onrender.com/register'],
     credentials: true,
   },
 });
